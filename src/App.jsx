@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 function App() {
   return (
     <>
-      <div>
+      <div style={{ width: "100%" }}>
         <Header />
       </div>
     </>

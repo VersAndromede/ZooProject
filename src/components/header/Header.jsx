@@ -6,6 +6,12 @@ const Header = () => {
   return (
     <div className={style.header}>
       <img src={background} alt="" />
+
+      <div className={style.buttons}>
+        <button>Зверята</button>
+        <button>О нас</button>
+        <button>Контакты</button>
+      </div>
     </div>
   );
 };
