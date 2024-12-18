@@ -8,9 +8,17 @@ const Header = () => {
       <img src={background} alt="" />
 
       <div className={style.buttons}>
-        <button>Зверята</button>
-        <button>О нас</button>
-        <button>Контакты</button>
+        <div className={style.buttonAddAnimal}>
+          <button>Зверята</button>
+        </div>
+
+        <div className={style.buttonsContainer}>
+          <button>Зверята</button>
+          <button>О нас</button>
+          <button>Контакты</button>
+        </div>
+
+        <div></div>
       </div>
     </div>
   );

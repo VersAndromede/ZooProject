@@ -1,11 +1,13 @@
 import "./App.css";
+import AnimalList from "./components/animalList/AnimalList";
 import Header from "./components/header/Header";
 
 function App() {
   return (
     <>
-      <div style={{ width: "100%" }}>
+      <div>
         <Header />
+        <AnimalList />
       </div>
     </>
   );
